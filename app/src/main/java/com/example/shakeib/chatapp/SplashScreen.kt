@@ -33,7 +33,7 @@ class SplashScreen : AppCompatActivity() {
             override fun run() {
                 try {
                     // Thread will sleep for 5 seconds
-                    Thread.sleep((5 * 1000).toLong())
+                    Thread.sleep((1 * 1000).toLong())
                     avi.show()
 
                     // After 5 seconds redirect to another intent

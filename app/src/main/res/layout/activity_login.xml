@@ -6,14 +6,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".LoginActivity"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#FFF"
+>
 
     <ImageView
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            android:src="@drawable/chat"
+            android:src="@drawable/chat_app"
             android:layout_margin="10dp"
+            android:id="@+id/imgLogin"
     />
 
     <android.support.design.widget.TextInputLayout

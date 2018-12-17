@@ -6,9 +6,9 @@ import android.net.Uri
 class Message(){
     var msg:String = ""
     var sender:Int = 0
-    var imageMap: Bitmap? = null
+    var imageMap: Uri? = null
 
-    constructor(msg:String, sender:Int, imageMap:Bitmap?):this(){
+    constructor(msg:String, sender:Int, imageMap:Uri?):this(){
         this.msg = msg
         this.sender = sender
         this.imageMap = imageMap

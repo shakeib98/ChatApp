@@ -18,14 +18,25 @@
             tools:text="Hellow World"
     />
 
-    <ImageView
-            android:layout_marginTop="5dp"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageViewRec"
-            android:src="@null"
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-    />
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/imageViewRec"
+                android:src="@null"
+                android:scaleType="centerCrop"
+        />
+
+        <VideoView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/videoViewRec"
+        />
+    </FrameLayout>
+
 
 
 
